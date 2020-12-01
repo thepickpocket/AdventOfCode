@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Day1.Day1KtTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-12-01T15:54:58" hostname="Jasons-MacBook-Pro.local" time="0.184">
+  <properties/>
+  <testcase name="sampleInputTest()" classname="Day1.Day1KtTest" time="0.033"/>
+  <testcase name="fullInputTest()" classname="Day1.Day1KtTest" time="0.149"/>
+  <system-out><![CDATA[Answer: 514579
+Answer 2: 241861950
+Answer: 444019
+Answer 2: 29212176
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
