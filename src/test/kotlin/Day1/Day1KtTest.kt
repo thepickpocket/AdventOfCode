@@ -12,10 +12,8 @@ class Day1KtTest {
         val answer = solvePuzzle1(inputs)
         val answer2 = solvePuzzle2(inputs)
 
-        println("Answer: $answer")
         assertEquals(514579, answer)
 
-        println("Answer 2: $answer2")
         assertEquals(241861950, answer2)
     }
 
@@ -26,10 +24,10 @@ class Day1KtTest {
         val answer = solvePuzzle1(inputs)
         val answer2 = solvePuzzle2(inputs)
 
-        println("Answer: $answer")
+        println("Day 1 Answer 1: $answer")
         assertEquals(444019, answer)
 
-        println("Answer 2: $answer2")
+        println("Day 1 Answer 2: $answer2")
         assertEquals(29212176, answer2)
     }
 }

@@ -24,6 +24,5 @@ fun solvePuzzle2(slopes: Set<IntArray>, inputMap: List<String>): Long {
         treeCountSet.add(solvePuzzle1(inputMap, slope[0], slope[1]))
     }
 
-    println("Tree count set is: $treeCountSet")
     return treeCountSet.map{it.toLong()}.reduce { acc, i -> acc * i }
 }

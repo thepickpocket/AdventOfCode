@@ -4,10 +4,8 @@ fun solvePuzzle1(passportInputs: List<String>): Int {
     val validFields = listOf("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid")
     var validFieldCount = 0
     var validPassportCount = 0
-    var passportsChecked = 0
 
     var passports = createPassportInputs(passportInputs)
-    println(passports)
 
     passports.forEach { passport ->
         val fieldMap = passport.split(" ").associate {
@@ -27,7 +25,6 @@ fun solvePuzzle1(passportInputs: List<String>): Int {
         validFieldCount = 0
     }
 
-    println("Passports Checked: $passportsChecked")
     return validPassportCount
 }
 
@@ -35,10 +32,8 @@ fun solvePuzzle2(passportInputs: List<String>): Int {
     val validEyeColor = listOf("amb", "blu", "brn", "gry", "grn", "hzl", "oth")
     var validFieldCount = 0
     var validPassportCount = 0
-    var passportsChecked = 0
 
     var passports = createPassportInputs(passportInputs)
-    println(passports)
 
     passports.forEach { passport ->
         val fieldMap = passport.split(" ").associate {
@@ -88,7 +83,6 @@ fun solvePuzzle2(passportInputs: List<String>): Int {
         validFieldCount = 0
     }
 
-    println("Passports Checked: $passportsChecked")
     return validPassportCount
 }
 
